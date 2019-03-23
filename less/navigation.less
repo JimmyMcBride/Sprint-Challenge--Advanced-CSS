@@ -1,1 +1,26 @@
 // Navigation code here
+nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #9CA1A7;
+    .nav-heading {
+        h1 {
+            font-size: 4rem;
+            color: #131724;
+        }
+    }
+    .nav-items {
+        margin: 10px 0;
+        a {
+            color: #131724;
+            padding: 5px 15px;
+            font-size: 1.8rem;
+            text-decoration: none;
+            &:hover {
+                color: #1C619E;
+            }
+        }
+    }
+}
