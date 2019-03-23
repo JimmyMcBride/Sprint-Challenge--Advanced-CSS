@@ -1,1 +1,23 @@
 // Mixins Here
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button(@width; @padding) {
+    width: @width;
+    padding: @padding;
+    margin: 0 auto;
+    border-radius: 15px;
+    background: #2F3350;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: bold;
+    color: #8E98A1;
+    border: #8E98A1 solid 2px;
+    &:hover {
+        color: #75D4F4;
+        border: #75D4F4 solid 2px;
+    }
+}
