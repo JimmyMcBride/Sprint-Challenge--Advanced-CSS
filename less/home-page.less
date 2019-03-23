@@ -63,7 +63,8 @@
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
     @media @phone {
       width: 100%;
       padding: 2%;
@@ -84,17 +85,6 @@
       p {
         margin-bottom: 26px;
       }
-
-      .btn {
-        .button(100px; 8px 20px);
-        @media @phone {
-          .button(100%; 15px 0);
-        }
-        &:hover {
-          .shake();
-        }
-
-      }
     }
 
     .walk-img {
@@ -103,22 +93,48 @@
       &:hover {
         .shake();
       }
-
       @media @phone {
         width: 100%;
         margin: 15px auto;
         .center();
       }
       img {
-        width: 100%;
-        height: auto;
         border-radius: 10px;
         @media @phone {
           width: 90%;
         }
       }
     }
+  }
+  .sign-up {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    .center();
+    .column();
 
+    .sign-up-form {
+      margin: 10px 0;
+      label {
+        font-size: 1.4rem;
+
+      }
+      .info-bar {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px 0;
+      }
+      .btn {
+        .button(100px; 8px 20px);
+        @media @phone {
+          .button(100%; 10px)
+        }
+        &:hover {
+          .shake();
+        }
+      }
+    }
 
   }
+
 } // home
