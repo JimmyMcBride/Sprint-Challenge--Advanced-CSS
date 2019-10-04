@@ -446,13 +446,20 @@ footer {
 .home .sign-up .sign-up-form {
   margin: 10px 0;
 }
-.home .sign-up .sign-up-form label {
-  font-size: 1.4rem;
-}
 .home .sign-up .sign-up-form .info-bar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin: 5px 0;
+}
+.home .sign-up .sign-up-form .info-bar input {
+  border-radius: 5px;
+  height: 26px;
+}
+.home .sign-up .sign-up-form .info-bar label {
+  font-size: 1.4rem;
+  text-align: right;
+  margin-right: 5px;
+  padding-top: 5px;
 }
 .home .sign-up .sign-up-form .btn {
   width: 100px;

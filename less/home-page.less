@@ -115,14 +115,21 @@
 
     .sign-up-form {
       margin: 10px 0;
-      label {
-        font-size: 1.4rem;
-
-      }
       .info-bar {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
+        // align-items: center;
         margin: 5px 0;
+        input {
+          border-radius: 5px;
+          height: 26px;
+        }
+        label {
+          font-size: 1.4rem;
+          text-align: right;
+          margin-right: 5px;
+          padding-top: 5px;
+        }
       }
       .btn {
         .button(100px; 8px 20px);
