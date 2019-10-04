@@ -1,1 +1,34 @@
 // Navigation code here
+nav {
+    .center();
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #9CAEBE;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: fixed;
+    width: 100%;
+    opacity: 0.85;
+    .nav-heading {
+        h1 {
+            margin-top: 10px;
+            font-size: 4rem;
+            color: #131724;
+        }
+    }
+    .nav-items {
+        margin: 10px 0;
+
+        a {
+            color: #131724;
+            padding: 5px 15px;
+            font-size: 1.8rem;
+            text-decoration: none;
+            &:hover {
+                color: #C8E6E4;
+                background: #011A53;
+                border-radius: 10px;
+            }
+        }
+    }
+}

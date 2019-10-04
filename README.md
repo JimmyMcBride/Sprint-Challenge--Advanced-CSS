@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+A) Adaptive websites use things like %'s to create a website that adapts to a screen size. Responsive websites use things like media queries to respond diferently to diferent screen sizes.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+A) Mobile first uses @media(min-width: Npx) {} to build a website mobile size first up to desktop size (usualy loads faster on mobile phones). Desktop first uses @media(min-width: Npx) {} to build a desktop sized website then have it respond to smaller, down to phone size.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+A) Set's 1rem to 10px so the math is easier.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+A) It's a syntax that uses javascrpit to compile it down to just straight css. Alowing you to do things like create variables, mixins and parametric mixins to ultimately improve your coding and even organizational workflow on larger projects.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+A) I absolutely love nesting. Parametric mixins and mixins in general are phenomial as well. Took a second to understand how the less-watch-compiler worked but I got it.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
